@@ -127,6 +127,7 @@ SQLite3をインストールしているにも関わらずエラーとなる場�
 パスを通してインストールしましょう。
 
 ```install_psycopg2.sh
+~$ xcode-select --install
 ~$ env LDFLAGS="-I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib" pip install psycopg2
 ```
 
